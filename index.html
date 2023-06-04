@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pieces Skincare</title>
+        <link rel="stylesheet" href="assets\css\style.css">
+
+    </head>
+
+    <body>
+
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo"><a href="#">P</a></div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <button onclick="show()">Sign Up</button>
+
+                    <script>
+                        function show(){
+                            let result = confirm("Do you want to continue?");
+
+                            if(result){
+                                console.log("User confirmed!");
+                            }else{
+                                console.log("User cancelled!");
+                            }
+                        }
+                    </script>
+
+                </ul>
+            </div>
+        </nav>
+
+        <section class="contents">
+
+            <section id="home" class="bg-container">
+
+                <h1 class="pieces">Pieces</h1>
+                <h2>S K I N C A R E</h2>
+
+                <img class="product-home" src="assets\images\p home.png"/>
+     
+            </section>
+
+            <section id="about" class="about-container">
+
+                <h1 class="about-us">ABOUT US</h1>
+
+                    <div class="about-page">
+                
+                    <p class="about-ceo">
+                        This company if founded by Florentino, Kaitlyn Mae. </br>
+                        She is a CEO in the age of twenty-one. What inspires her </br>
+                        to build a company that focuses on taking cake of the </br>
+                        skin is because she experienced the insecurity that </br>
+                        a lot of teenagers experiences during their break </br>
+                        outs on the face. Through these products, she hope </br>
+                        she could help bring confidence back to many people </br>
+                        and for them to take care of themselves.
+                    </p>
+
+                    <img class="owner" src="assets\images\owner.png"/>
+
+                    </div>
+
+            </section>
+
+            <section id="products" class="product-container">
+
+                <h1 class="our-product">PRODUCTS</h1>
+
+                    <h2 class="cc">CALMING CLEANSER</h2>
+
+                        <div class="calming-cleanser">
+
+                        <P class="cc-des">
+                            This acid-balanced calming cleanser contains BHA (salicylic acid) to remove </br>
+                            sebum, keratin, and harmful bacteria from skin while moisturizing skin with </br>
+                            twenty percent Suncheon Bay Water Parsley Extract.
+                        </P>
+
+                        <img class="cc-img" src="assets\images\cc-img.png"/>
+
+                        </div>
+
+                        <h2 class="cmc">CALMING MOISTURE CREAM</h2> 
+
+                            <div class="calming-moisture-cream">
+
+                            <img class="cmc-img" src="assets\images\cmc-img.png">
+                            
+                            <p class="cmc-des">
+                                This hypoallergenic calming moisture cream is absorbed gently and freshly
+                                into sensitive skin, delivering the vitality of Water Parsley grown in 
+                                Suncheon, Korea.
+                            </p>
+
+                            </div>
+
+             </section>
+
+             <section id="gallery" class="gallery-container">
+
+                <h1 class="our-gallery">GALLERY</h1>
+
+                <div class="a-img">
+                <img src="assets\images\1.png"/> 
+                </div>
+                
+                <div class="b-img">
+                <img src="assets\images\2.png"/> 
+                </div>
+
+                <div class="c-img">
+                <img src="assets\images\3.png"/> 
+                </div>
+
+                <div class="d-img">
+                <img src="assets\images\4.png"/> 
+                </div>
+
+            </section>
+
+             <section id="follow" class="follow-container">
+
+                <h3 class="follow-us">FOLLOW  US  ON :</h3>
+
+                <div class="socmed">
+
+                    <a href="https://www.facebook.com/pieces.skincare"><img class="fb" src="assets\images\fb.png"></a>
+                    <a href="https://www.instagram.com/pieces_sk/"><img class="ig" src="assets\images\ig.png"></a>
+                    <a href="https://twitter.com/pieces_skincare?s=21"><img class="twt" src="assets\images\twt.png"></a>
+
+                </div>
+
+            </section>
+
+        </section>
+    
+    </div>
+
+
+
+    </body>
+</html>

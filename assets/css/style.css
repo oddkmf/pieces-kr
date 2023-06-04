@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: white;
+    font-family: 'Geomatrix';
+    height: 150px;
+}
+
+.navdiv{
+    padding-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-family: 'Retrow Mentho';
+    font-size: 35px;
+    font-weight: 600;
+    color: #FF66C4;
+    width: 150px;
+    text-align: right;
+    font-size: 4vw;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: #FF66C4;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 200px;
+}
+
+button{
+    background-color: #FF66C4;
+    margin-left: 10px;
+    margin-right: 200px;
+    border-radius: 50px;
+    padding: 10px;
+    width: 90px;
+}
+
+button a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.bg-container{
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(60deg, #5170FF, #FF66C4, #FF66C4);
+    background-size: 600% 600%;
+    animation: bgAnimatedGradient 10s infinite linear;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.pieces{
+    width: 0px;
+    margin-left: 150px;
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'Retrow Mentho';
+    letter-spacing: 6px;
+    font-size: 15vw;
+    color: white;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+h2{
+    margin-left: 0px;
+    text-align: center;
+    padding-top: 30%;
+    font-family: 'Geomatrix';
+    letter-spacing: 7px;
+    font-size: 4vw;
+    color: white;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-home{
+    width: 800px;
+    height: 800px;
+    float: right;
+}
+
+.about-container{
+    background-color: #FF66C4;
+    height: 100vh;
+    box-sizing: border-box;;
+}
+
+.about-page{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about-us{
+    font-family: 'Geomatrix';
+    text-align: center;
+    padding-top: 5%;
+    font-size: 4vw;
+    color: white;
+    
+}
+
+.about-ceo{
+    font-family: 'COCOGOOSE';
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 0px;
+    font-size: 200%;
+    padding-top: 5%;
+    color: white;
+}
+
+.owner{
+    width: 500px;
+    height: 500px;
+    margin-right: 10%;
+    float: right;
+}
+
+.product-container{
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;;
+}
+
+.our-product{
+    font-family: 'Geomatrix';
+    text-align: center;
+    padding-top: 5%;
+    font-size: 4vw;
+    color: #FF66C4;
+    
+}
+
+.calming-cleanser{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cc{
+    font-family: 'COCOGOOSE';
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 0px;
+    font-size: 200%;
+    padding-top: 5%;
+    color: #FF66C4;
+}
+
+.cc-des{
+    font-family: 'COCOGOOSE';
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 0px;
+    font-size: 100%;
+    padding-top: 0%;
+    color: #FF66C4;
+}
+
+.cc-img{
+    width: 700px;
+    height: 700px;
+    margin-right: 10%;
+    float: right;
+}
+
+.calming-moisture-cream{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cmc{
+    font-family: 'COCOGOOSE';
+    text-align: right;
+    margin-left: 0px;
+    margin-right: 100px;
+    font-size: 200%;
+    padding-top: 5%;
+    color: #FF66C4;
+}
+
+.cmc-des{
+    font-family: 'COCOGOOSE';
+    text-align: right;
+    margin-left: 0px;
+    margin-right: 100px;
+    font-size: 100%;
+    padding-top: 0%;
+    color: #FF66C4;
+}
+
+.cmc-img{
+    width: 700px;
+    height: 700px;
+    margin-left: 10%;
+    float: left;
+}
+
+.gallery-container{
+    background-color: #FF66C4;
+    width: 100%;
+    background-size: 600% 600%;
+}
+
+.our-gallery{
+    font-family: 'Geomatrix';
+    text-align: center;
+    padding-top: 5%;
+    font-size: 4vw;
+    color: #ffff;
+    
+}
+
+.a-img{
+    display: flex;
+    margin-top: 200px;;
+    margin-left: 400px;
+    margin-bottom: 100px;
+}
+
+.b-img{
+    display: flex;
+    margin-top: 200px;;
+    margin-left: 400px;
+    margin-bottom: 100px;
+}
+
+.c-img{
+    display: flex;
+    margin-top: 200px;;
+    margin-left: 400px;
+    margin-bottom: 100px;
+}
+
+.d-img{
+    display: flex;
+    margin-top: 200px;;
+    margin-left: 400px;
+    margin-bottom: 100px;
+}
+
+.follow-container{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    background-size: 600% 600%;
+}
+
+.socmed{
+    justify-content: bottom;
+}
+
+.follow-us{
+    font-family: 'COCOGOOSE';
+    text-align: left;
+    margin-left: 47%;
+    margin-right: 0%;
+    font-size: 80%;
+    margin-bottom: 1%;
+    color: #FF66C4;
+}
+
+.fb{
+    width: 50px;
+    height: 50px;
+    margin-top: 0%;
+    margin-left: 46%;
+    margin-bottom: 8%;
+}
+
+.ig{
+    width: 50px;
+    height: 50px;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 8%;
+}
+
+.twt{
+    width: 50px;
+    height: 50px;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 8%;
+}
+
+
+
+@keyframes bgAnimatedGradient{
+    0%{
+        background-position: 0 85%;
+    }
+    50%{
+        background-position: 100% 20%;
+    }
+    100%{
+        background-position: 0% 85%;
+    }
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px ##fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
+    }
+  }
